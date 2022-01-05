@@ -11,7 +11,7 @@ function calcHype() {
     }
     console.log(Math.sqrt(midsquare))
 
-    op.innerText = Math.sqrt(midsquare);
+    op.innerText = "Hypotenuse is : " + Math.sqrt(midsquare);
 
     console.log("finished");
 

@@ -10,22 +10,30 @@
 </head>
 
 <body>
-    <h1>Triangle Quiz</h1>
+    <nav class="navigation container">
+        <ul class="list-non-bullet">
+            <li class="list-item-inline"><a href="/index1.html" class="nav-links">Angles</a></li>
+            <li class="list-item-inline"><a href="/index2.html" class="nav-links link-active">Quiz</a></li>
+            <li class="list-item-inline"><a href="/index3.html" class="nav-links">Hypotenuse</a></li>
+            <li class="list-item-inline"><a href="/index4.html" class="nav-links">Area</a></li>
+        </ul>
+    </nav>
+    <h1>Test your knowledge about triangles!</h1>
 
     <form class="quiz-form">
         <div class="question-container">
-            <p>question (1) </p>
-            <p>what's the third angle int the triangle where angle1 = 45` deg and angle2 = 45` deg?</p>
-            <label><input type="radio" name="question1" class="opt1" value="45">45` deg</label>
+            <p class="lbl">question (1) </p>
+            <p class="lbl">what's the third angle int the triangle where angle1 = 45` deg and angle2 = 45` deg?</p>
+            <label><input type="radio" name="question1" id="first1" class="opt1" value="45">45` deg</label>
             <label><input type="radio" name="question1" class="opt1" value="60">60`deg</label>
             <label><input type="radio" name="question1" class="opt1" value="90">90` deg</label>
         </div>
         <div class="question-container">
-            <p>question (2) </p>
-            <p>What is the name of a triangle which has on of the angles as 90` in it?</p>
-            <label><input type="radio" name="question2" class="opt1" value="acute">acute-angle triangle</label>
-            <label><input type="radio" name="question2" class="opt1" value="right">right-angle triangle</label>
-            <label><input type="radio" name="question2" class="opt1" value="obtuse">obtuse-angle triangle</label>
+            <p class="lbl">question (2) </p>
+            <p class="lbl">What is the name of a triangle which has on of the angles as 90` in it?</p>
+            <label><input type="radio" name="question2" id="first2" class="opt2" value="acute">acute-angle triangle</label>
+            <label><input type="radio" name="question2" class="opt2" value="right">right-angle triangle</label>
+            <label><input type="radio" name="question2" class="opt2" value="obtuse">obtuse-angle triangle</label>
         </div>
         <button type="submit" id="submit-button">Submit answers</button>
         <p class="output"></p>

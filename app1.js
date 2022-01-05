@@ -12,7 +12,7 @@ function angleCheck() {
     sum = Number(sum);
     console.log(sum, typeof(sum))
     if (sum === 180) {
-        op.innerText = "yes, the given angles can frm a triangle";
+        op.innerText = "yes, the given angles can form a triangle";
     } else {
         op.innerText = "no, the given angles cannot for a triangle";
     }
